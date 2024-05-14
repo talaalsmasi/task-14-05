@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .p
+        {
+            height:500px ;
+            display: grid;
+            grid-template-rows: repeat(8, 1fr);
+            grid-template-columns: repeat(60, 1fr);
+            row-gap: 5px; column-gap: 5px;
+            text-align: center;
+            padding: 5px;
+            color: white;
+        }
+        .a
+        {
+            padding: 15px;
+            background-color: #46B2FD;
+            border-radius:5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+             
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div class="a" style=" grid-column: 1/62;"> 60 GS is starter kit for the CSS Grid.</div>
+        <div class="a" style=" grid-column: 1/32" >1</div>
+        <div class="a" style="grid-column: 32/62;">2</div>
+        <div class="a" style="grid-column: 1/22;">1</div>
+        <div class="a" style="grid-column: 22/42;" >2</div>
+        <div class="a" style="grid-column: 42/62;">3</div>
+        <div class="a" style="grid-column: 1/14;">1</div>
+        <div class="a" style="grid-column: 14/26;">2</div>
+        <div class="a" style="grid-column: 26/38;">3</div>
+        <div class="a" style="grid-column: 38/50;">4</div>
+        <div class="a" style="grid-column: 50/62;">5</div>
+        <div class="a" style="grid-column: 1/12;" >1</div>
+        <div class="a" style="grid-column: 12/22;">2</div>
+        <div class="a" style="grid-column: 22/32;">3</div>
+        <div class="a" style="grid-column: 32/42;">4</div>
+        <div class="a" style="grid-column: 42/52;">5</div>
+        <div class="a" style="grid-column: 52/62;">6</div>
+        <div class="a" style="grid-column: 1/62;"><p>Why 60?</p> <p>Because the number 60 is divideable by 2,3,4,5 and 6.</p></div>
+    </div>
+</body>
+</html>

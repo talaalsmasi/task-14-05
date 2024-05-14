@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exercise5</title>
+    <style>
+        .p
+        {
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+            width: 500px;
+            height: 600px;
+            background-color: #A0D0EA;
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+            margin-top: 50px;
+
+        }
+        .a
+        {
+            color: #4B516E;
+            background-color: #EFEFEF;
+            border-bottom:solid ;
+            border-width: 5px;
+            border-color: #80A5BB;
+            padding: 40px;
+            font-size: x-large;
+        }
+        .b{
+            color: #4B516E;
+            background-color: #EFFF93;
+            border-bottom:solid ;
+            border-width: 5px;
+            border-color: #80A5BB;
+            padding: 40px;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body style="background-color: #A8BF7E;">
+    <div class="p" >
+        <div class="a" style="grid-column: 1/5;background-color: #F1FBEB;"></div>
+        <div class="a">1</div>
+        <div class="a">2</div>
+        <div class="a">3</div>
+        <div class="b">+</div>
+        <div class="a">4</div>
+        <div class="a">5</div>
+        <div class="a">6</div>
+        <div class="b">-</div>
+        <div class="a">7</div>
+        <div class="a">8</div>
+        <div class="a">9</div>
+        <div class="b">*</div>
+        <div style="color: #4B516E ;background-color: #FE9FA9;border-bottom: #80A5BB ;border-bottom:solid ;
+        border-width: 5px;
+        border-color: #80A5BB;padding: 40px;font-size: x-large; " >C</div>
+        <div class="a">0</div>
+        <div class="a">=</div>
+        <div class="b">/</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .p
+        {
+         display: grid;
+         grid-template-rows: 15% 50% 35%;
+         grid-template-columns:repeat(3,1fr ) ;
+         row-gap: 5px;
+         column-gap: 5px;
+         ;
+        }
+        .ck
+      {
+        background-color: black;
+        grid-column: 1/5;
+      }
+      .o
+      {
+        background-color: orange;
+        grid-column: 1/3;
+      }
+      .g
+      {
+        background-color: green;
+      }
+      .b
+      {
+        background-color: blue;
+        grid-column: 1/5;
+      }
+    </style>
+</head>
+<body>
+  <div class="p" style="height: 500px;background-color: white;">
+    <div class="ck"></div>
+    <div class="o"></div>
+    <div class="g"></div>
+    <div class="b"></div>
+  </div>  
+</body>
+</html>
